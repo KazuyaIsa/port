@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta  name="viewport"  content="width=device-width,initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dfbda3929c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet"  href="style.css" />
+    <title>portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <h1  class="heading">
+        <p>
+          Portfolio
+        </p>
+      </h1>
+      <div  class="social">
+        <a href="https://github.com/KazuyaIsa"><i  class="fab  fa-github fa-2x"></i></a>
+      </div>
+    </header>
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-list-item">Wellcome</li>
+        <li class="nav-list-item">To</li>
+        <li class="nav-list-item">Mypage</li>
+      </ul>
+    </nav>
+    <div  class="main-visual">
+      <div  class="main-visual-content">
+        <p  class="main-visual-text">
+          Something I want to<br  /> make maybe something<br  /> useful for someone.
+        </p>
+        <p  class="main-visual-name">
+          My portfolio
+        </p>
+      </div>
+    </div>
+
+    <main>
+      <section  class="blog">
+        <h2  class="blog-heading">Development app</h2>
+        <div  class="blog-box">
+          <div  class="blog-item">
+            <div  class="blog-image"><%= image_tag('img/ika.jpeg', class: 'blog-image') %></div>
+            <section  class="blog-text">
+              <h3  class="blog-text-heading">
+                <a  href="http://44.209.229.215/">
+                  趣味のイカ釣りが<br>
+                  テーマのイカ釣り師同士が<br>
+                  繋がるSNS
+                </a>
+              </h3>
+              <p  class="blog-date">Jan 2023</p>
+              <span  class="category">ikapunch</span>
+            </section>
+          </div>
+          <div  class="blog-item">
+            <div  class="blog-image"><%= image_tag('img/about.jpeg', class: 'blog-image') %></div>
+            <section  class="blog-text">
+              <h3  class="blog-text-heading">
+                <a  href="https://drive.google.com/drive/folders/1_ApsHipsmCBoHBymwR9apreFljuPQvKy?usp=share_link">
+                  ikapunchの<br  />
+                  簡易的な説明と自己紹介を
+                  まとめたPDF<br  />
+                </a>
+              </h3>
+              <p  class="blog-date">Jan, 2023</p>
+              <span  class="category">ikapunch</span>
+            </section>
+          </div>
+          <div  class="blog-item">
+            <div  class="blog-image"><%= image_tag('img/code.jpeg', class: 'blog-image') %></div>
+            <section  class="blog-text">
+              <h3  class="blog-text-heading">
+                <a  href="single.html">
+                  エンジニア同士助け合う<br  />
+                  エンジニアを繋ぐアプリ
+                </a>
+              </h3>
+              <p  class="blog-date">開発中</p>
+              <span  class="category">kamidanomi</span>
+            </section>
+          </div>
+          <div  class="blog-item">
+            <div  class="blog-image"><%= image_tag('img/call.jpeg', class: 'blog-image') %></div>
+            <section  class="blog-text">
+              <h3  class="blog-text-heading">
+                <a  href="single.html">
+                  comming soon<br  />
+                  please give me a jod.
+                </a>
+              </h3>
+              <p  class="blog-date">2023</p>
+              <span  class="category">Blank</span>
+            </section>
+          </div>
+          <div  class="blog-item">
+            <div  class="blog-image"><%= image_tag('img/call.jpeg', class: 'blog-image') %></div>
+            <section  class="blog-text">
+              <h3  class="blog-text-heading">
+                <a  href="single.html">
+                  comming soon<br  />
+                  please give me a jod.
+                </a>
+              </h3>
+              <p  class="blog-date">2023</p>
+              <span  class="category">Blank</span>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <div  class="sidebar">
+        <section  class="popular">
+          <h2  class="popular-heading  common-heading">Skill learing time</h2>
+          <div  class="sidebar-contents">
+            <p  class="popular-text"><i  class="fa fa-school-flag"></i>DMM WEBCANP<br>2022.11-2023.1 160時間</p>
+            <p  class="popular-text"><i  class="fa fa-desktop"></i>取得スキル<br>HTML5.CSS3.Ruby.Ruby on rails.Git.GitHub</p>
+            <p  class="popular-text"><i  class="fa fa-address-card"></i>取得オープンバッチ<br>
+              <a href="https://www.openbadge-global.com/ns/portal/openbadge/public/assertions/user/MTkwOTcwWmx3KzlheWl5NzdoUzVpQT09">詳細内容記載URLはこちら</a>
+            </p>
+            <p  class="popular-text"><i  class="fa fa-school-flag"></i>DMM WEBCANP<br>Webデザインの基礎<br>2023.1~現在受講中</p>
+            <p  class="popular-text"><i  class="fa fa-chalkboard-user"></i>自己学習<br>API連携、マッチング機能の学習中</p>
+          </div>>
+        </section>
+        <section  class="instagram">
+          <h2  class="instagram-heading common-heading">Hobby photo</h2>
+          <div  class="sidebar-contents">
+            <div  class="instagram-box"></div>
+            <div  class="instagram-box"></div>
+            <div  class="instagram-box"></div>
+            <div  class="instagram-box"></div>
+            <div  class="instagram-box"></div>
+            <div  class="instagram-box"></div>
+          </div>
+        </section>
+        <section  class="categories">
+          <h2  class="categories-heading  common-heading">Introduction</h2>
+          <div  class="sidebar-contents">
+            <p  class="categories-text"><i  class="fa fa-user"></i>Name</p>
+            <p  class="categories-text">伊佐　和也</p>
+            <p  class="categories-text"><i  class="fa fa-fish"></i>Hobby</p>
+            <p  class="categories-text">海釣り、野球観戦</p>
+            <p  class="categories-text"><i  class="fa fa-phone"></i>Tel</p>
+            <p  class="categories-text">090-6189-4880</p>
+            <p  class="categories-text"><i  class="fa fa-envelope"></i>Email</p>
+            <p  class="categories-text">kazucchiisa@icloud.com</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p  class="footer-text">&copy;  Kazuya Isa </p>
+    </footer>
+  </body>
+</html>
